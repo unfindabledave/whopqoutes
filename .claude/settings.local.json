@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:rajeevnaruka.com)",
+      "WebFetch(domain:docs.whop.com)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Bash(npm init -y)",
+      "Bash(npm install next@latest react@latest react-dom@latest typescript @types/react @types/node tailwindcss @tailwindcss/postcss postcss)",
+      "Bash(npm install @whop-apps/sdk)",
+      "Bash(npx next build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where npm.cmd)",
+      "Bash(where npx.cmd)",
+      "Bash(where node.exe)"
+    ]
+  }
+}
