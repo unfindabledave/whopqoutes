@@ -14,7 +14,7 @@ export default function PaymentPage() {
     try {
       // Try Whop iFrame SDK if embedded in Whop
       const { createAppIframeSDK } = await import("@whop-apps/sdk");
-      const sdk = createAppIframeSDK();
+      const sdk = createAppIframeSDK({});
       await sdk.unlockExperience({ productId: PRODUCT_ID });
     } catch {
       // Fallback: redirect to Whop product page
