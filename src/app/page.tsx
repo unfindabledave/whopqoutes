@@ -1,12 +1,9 @@
-import QuoteCard from "@/components/QuoteCard";
-import { getRandomQuote } from "@/data/bible-quotes";
+import PaymentPage from "@/components/PaymentPage";
 
 export default function Home() {
-  const initialQuote = getRandomQuote();
-
   return (
     <main>
-      <QuoteCard initialQuote={initialQuote} />
+      <PaymentPage />
     </main>
   );
 }
